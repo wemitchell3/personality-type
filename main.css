@@ -1,6 +1,44 @@
+/* Complete site CSS code below */
 body {
     background-color: #ddd1e7;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
 }
-.quote + li { 
+
+/* CSS code for header below */
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+
+    max-width: 1250px;
+}
+
+#name {
+    font-style: Bold;
+    font-size: 50px;
+    padding: 10px;
+}
+
+#personality {
+    font-style: Bold;
+    font-size: 30px;
+    padding: 10px;
+}
+
+/* CSS code for description snippets below */
+
+.desctiptionSnippets {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+
+    max-width: 1250px;
+}
+.quote { 
     font-style: italic;
 }
