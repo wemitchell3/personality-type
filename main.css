@@ -1,0 +1,6 @@
+body {
+    background-color: #ddd1e7;
+}
+.quote + li { 
+    font-style: italic;
+}
