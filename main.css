@@ -11,10 +11,10 @@ body {
 .description {
     display: flex;
     flex-direction: column;
-    align-content: center;
     text-align: center;
-
     max-width: 1250px;
+    margin-bottom: 50px;
+    font-size: 16px;
 }
 
 #name {
@@ -33,12 +33,29 @@ body {
 
 .desctiptionSnippets {
     display: flex;
-    flex-direction: column;
-    align-content: center;
-    text-align: center;
-
+    flex-flow: row wrap;
+    justify-content: space-around;
     max-width: 1250px;
+    margin-bottom: 50px;
 }
+
+.desctiptionSnippets section {
+    display: flex;
+    flex-flow: row wrap;
+    /* flex-basis: 33%; */
+    border-radius: 25px;
+    width: 350px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #bba3d0;
+    box-shadow: 3px 3px 5px 6px rgba(48, 24, 54, 0.432);
+}
+
+div {
+    font-weight: bold;
+    font-size: 18px;
+}
+
 .quote { 
     font-style: italic;
 }
