@@ -41,8 +41,8 @@ body {
 
 .desctiptionSnippets section {
     display: flex;
-    flex-flow: row wrap;
-    /* flex-basis: 33%; */
+    /* flex-flow: row wrap; */
+    flex-direction: column;
     border-radius: 25px;
     width: 350px;
     margin-bottom: 30px;
@@ -58,4 +58,18 @@ div {
 
 .quote { 
     font-style: italic;
+}
+
+/* CSS code for celebrity images below */
+
+article.celebImages {
+    background-color: rgba(102, 17, 128, 0.658);
+    padding: 25px; 
+    border-radius: 25px;
+    box-shadow: 3px 3px 6px 6px rgba(48, 24, 54, 0.432);
+    margin: 0px 0px 25px 0px;
+}
+
+.celebPics {
+    width: 250px;
 }
