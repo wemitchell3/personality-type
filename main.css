@@ -1,75 +1,69 @@
-/* Complete site CSS code below */
 body {
     background-color: #ddd1e7;
     display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
-}
-
-/* CSS code for header below */
-
-.description {
-    display: flex;
     flex-direction: column;
+    align-items: center;
+}
+.mainImage {
+    max-width: 100%;
+    height: auto;
+}
+.description {
     text-align: center;
     max-width: 1250px;
-    margin-bottom: 50px;
+    margin: 50px;
     font-size: 16px;
 }
-
 #name {
     font-style: Bold;
     font-size: 50px;
-    padding: 10px;
+    margin: 10px;
+    text-align: center;
 }
-
 #personality {
     font-style: Bold;
     font-size: 30px;
-    padding: 10px;
+    margin: 10px;
+    text-align: center;
 }
-
-/* CSS code for description snippets below */
-
-.desctiptionSnippets {
+/* .desctiptionSnippets {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     max-width: 1250px;
     margin-bottom: 50px;
-}
-
+} */
 .desctiptionSnippets section {
     display: flex;
-    /* flex-flow: row wrap; */
+    flex-flow: row wrap;
     flex-direction: column;
     border-radius: 25px;
-    width: 350px;
+    max-width: 350px;
     margin-bottom: 30px;
     padding: 20px;
     background-color: #bba3d0;
     box-shadow: 3px 3px 5px 6px rgba(48, 24, 54, 0.432);
 }
-
-div {
-    font-weight: bold;
-    font-size: 18px;
-}
-
 .quote { 
     font-style: italic;
 }
-
-/* CSS code for celebrity images below */
-
-article.celebImages {
+.celebImages {
     background-color: rgba(102, 17, 128, 0.658);
     padding: 25px; 
     border-radius: 25px;
     box-shadow: 3px 3px 6px 6px rgba(48, 24, 54, 0.432);
     margin: 0px 0px 25px 0px;
+    flex-flow: row wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
-
 .celebPics {
-    width: 250px;
+    max-width: 250px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+    margin: 7px;
+    box-shadow: 2px 2px 4px 4px rgba(48, 24, 54, 0.432);
 }
