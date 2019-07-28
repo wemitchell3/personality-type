@@ -26,14 +26,7 @@ body {
     margin: 10px;
     text-align: center;
 }
-/* .desctiptionSnippets {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    max-width: 1250px;
-    margin-bottom: 50px;
-} */
-.desctiptionSnippets section {
+.descriptionSnippets section {
     display: flex;
     flex-flow: row wrap;
     flex-direction: column;
